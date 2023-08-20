@@ -50,8 +50,11 @@ nav ul li{
      background-color: black;
      bottom: 0;
      display: flex;
+     color:white;
      justify-content: center;
+     flex-direction: column;
      
+
 }
 
 .container{
