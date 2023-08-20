@@ -33,6 +33,32 @@ nav ul{
     font-size: 1.3rem;
 }
 
+.container{
+    min-height: 75vh;
+}
+
+
 nav ul li{
     padding: 0 12px;
+}
+
+.bottom{
+    position:sticky;
+    /* position sticky rkhne se yeh hoga ki yeh chipka reh jayega 
+     */
+     height: 130px;
+     background-color: black;
+     bottom: 0;
+     display: flex;
+     justify-content: center;
+     
+}
+
+.container{
+    min-height: 100;
+}
+
+
+#myProgressBar{
+    width: 80vw;
 }
